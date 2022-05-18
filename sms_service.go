@@ -251,7 +251,7 @@ type CreateSmsCampaignByPhonesParams struct {
 	Body          string            `json:"body"`
 	Transliterate int               `json:"transliterate"`
 	Route         map[string]string `json:"route,omitempty"`
-	Date          DateTimeType      `json:"date"`
+	Date          string            `json:"date"`
 	Emulate       int               `json:"emulate"`
 }
 
